@@ -2,8 +2,8 @@
 
 
 int main(){
-    InitWindow(1080, 720, "GAP");
-    SetTargetFPS(120);
+    InitWindow(1280, 720, "GAP");
+    SetTargetFPS(144);
 
     while (!WindowShouldClose()){
         BeginDrawing();
