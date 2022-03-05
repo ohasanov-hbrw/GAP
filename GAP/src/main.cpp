@@ -7,7 +7,7 @@ int main(){
 
     while (!WindowShouldClose()){
         BeginDrawing();
-        ClearBackground(RAYWHITE);
+        ClearBackground(BLACK);
         DrawFPS(20, 20);
         EndDrawing();
     }
