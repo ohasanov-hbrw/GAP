@@ -11,7 +11,5 @@ add_executable(GAP ${source_files})
 target_link_libraries(
             GAP
             PRIVATE
-            EnTT::EnTT
-            spdlog
             raylib
 )
