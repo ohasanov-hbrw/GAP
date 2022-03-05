@@ -1,0 +1,19 @@
+***** variables
+    CamelCase
+***** functions ->
+    void onAliCry() {
+
+    }
+    public void onAliScream() {
+
+    }
+***** ifs -> 
+    if(){
+        Epik();
+    }
+    else{
+        VeryCool();
+    }
+
+    if()
+        Noice;
