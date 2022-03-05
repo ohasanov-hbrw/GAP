@@ -1,5 +1,6 @@
 #include "raylib.h"
 
+
 int main(){
     InitWindow(1080, 720, "GAP");
     SetTargetFPS(120);
