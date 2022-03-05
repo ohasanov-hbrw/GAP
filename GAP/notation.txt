@@ -1,5 +1,7 @@
-***** variables
+***** variables ->
     CamelCase
+    X
+    Y
 ***** functions ->
     void onAliCry() {
 
@@ -17,3 +19,7 @@
 
     if()
         Noice;
+***** file names ->
+    haha_noob_faik.h
+***** math ->
+    3 * Apples + (4 * Bananas) = 5 * Smoothies
