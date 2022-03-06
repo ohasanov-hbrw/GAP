@@ -4,8 +4,9 @@ set(PROJECT_SOURCE_DIR ${PROJECT_DIR}/src)
 set(source_dir "${PROJECT_SOURCE_DIR}")
 
 include_directories(include/)
+file(GLOB_RECURSE source_files "${source_dir}/*.cpp")
 
-add_executable(GAP src/main.cpp src/physics_math.cpp src/entity.cpp)
+add_executable(GAP ${source_files})
 
 target_link_libraries(
             GAP
