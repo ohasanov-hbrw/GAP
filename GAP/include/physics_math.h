@@ -86,3 +86,13 @@ inline PhysicsVector operator - (PhysicsVector Vec1, int Subtractor){
 inline PhysicsVector operator - (int Subtractor, PhysicsVector Vec1){
 	return PhysicsVector{Subtractor - Vec1.X, Subtractor - Vec1.Y};
 }
+
+float vectorLength(PhysicsVector Vec);
+float vectorDistance(PhysicsVector A, PhysicsVector B);
+float vectorSqrLength(PhysicsVector Vec);
+PhysicsVector vectorNormalized(PhysicsVector Vec);
+PhysicsVector vectorScalarMultiplication(PhysicsVector Vec, float Scalar);
+float vectorDotProduct(PhysicsVector Vec1, PhysicsVector Vec2);
+float vectorCross(PhysicsVector Vec1, PhysicsVector Vec2);
+PhysicsVector vectorCross(PhysicsVector Vec, float S);
+PhysicsVector vectorCross(float S, PhysicsVector Vec);

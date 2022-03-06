@@ -23,24 +23,24 @@ int main(){
     InitWindow(1280, 720, "GAP");
     //SetTargetFPS(144);
     
-    Entity entities[5000];
+    //Entity entities[5000];
     
-    ECS ecs;
+    /*ECS ecs;
     for (std::size_t i = 0; i < 5000; i++){
         Entity entity = ecs.createEntity();
         ecs.addComponent<TransformButNotRaylib>(entity, {{200,200}, {50.f, 50.f}});
         ecs.addComponent<ComponentColor>(entity, {BLUE});
         entities[i] = entity;
-    }
+    }*/
     
     while (!WindowShouldClose()){
         BeginDrawing();
         ClearBackground(BLACK);
-        for (auto& entity : entities){
+        /*for (auto& entity : entities){
             TransformButNotRaylib& transform = ecs.getComponent<TransformButNotRaylib>(entity);
             auto const& color = ecs.getComponent<ComponentColor>(entity);
             transform.step();
-        }
+        }*/
         DrawFPS(20, 20);
         EndDrawing();
     }
