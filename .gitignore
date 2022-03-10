@@ -4,6 +4,8 @@
 # build directory
 /build
 
+# vscode cache
+.vscode
 # Compiled Object files
 *.slo
 *.lo
