@@ -1,6 +1,6 @@
 #include "entity.h"
 
-class MonoBehaviour{
+class NativeBehaviour{
 public:
     template<typename T>
     T& GetComponent(){
